@@ -1,0 +1,126 @@
+<Anasayfa>:
+    orientation: 'vertical'
+    
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20
+        spacing: 20
+
+        Image:
+            source: "yumurta.png"
+
+        EditedLabel:
+            text: "[b][i]Yumurtam Sıcak[/b][/i]" + "\n" + "ailesine hoş geldiniz :)"
+            text_size: self.size
+            pos_hint: {'center_x':0.5, 'y':0}
+            size_hint_y: None
+
+        RobotoButton:
+            text: "[color=#000000]Hakkımızda[/color]"
+            on_press: root.manager.current = "hakkimizda"
+
+        RobotoButton:
+            text: "[color=#000000]Sipariş Ver[/color]"
+            background_disabled_down: "True"
+
+        RobotoButton:
+            text: "[color=#000000]İletişim[/color]"
+
+        BoxLayout:
+            orientation: "horizontal"
+            padding: 20
+            spacing: 20
+
+            SocialMediaLinks:  
+                source: "face.png"
+                pos_hint: {'center_x':0.75, 'y': 0}
+                size_hint_y: None
+                height: dp(40)
+                on_press: self.facebook_link()
+                
+            SocialMediaLinks:
+                source: "insta.png"
+                pos_hint: {'center_x':0.5, 'y': 0}
+                size_hint_y: None
+                height: dp(40)
+                on_press: self.instagram_link()
+             
+            SocialMediaLinks:
+                source: "pint.png"
+                pos_hint: {'center_x':0.25, 'y': 0}
+                size_hint_y: None
+                height: dp(40)
+                on_press: self.pinterest_link()
+
+<Hakkimizda>:
+    
+    BoxLayout:
+        orientation: "vertical"
+        spacing: 40
+        padding: 40
+
+        Image:
+            source: "yumurta.png"
+
+        EditedLabel:
+            text: "Kırklareli’nin Kavaklı Beldesinde 2015 Yılında Çıktık Yola. Dedik Ki Hep “Şehirde Unuttuğunuz Lezzetlere Kavuşun Diye Köyde Sizin İçin Doğal Ürünler Yetiştiren Bir Aileniz Varmış Gibi Hissedin”. Aldık Hedefimizi Sırtımıza Her Hafta Cuma Ve Cumartesi Günleri Bitmeyen Bir Heyecanla, Hızla Koşup Geliyoruz Kapınıza. Siz Perşembe Günleri Gün Sonuna Kadar Oturduğunuz Yerden Siparişinizi Verin; Biz Evinize-Ofisinize Getirelim. Sorularınız, Görüşleriniz, Önerileriniz Ve Siparişleriniz İçin Sosyal Medya Hesaplarımız Dışında yumurtamsicak@outlook.com Adresimizi Ve 0507 398 76 36  ya da 0541 901 26 98 Numaralı Telefonlarımızı Kullanabilirsiniz.Sevgilerle Yumurtam Sıcak Ailesi"
+            text_size: self.size
+            bold: True
+            font_size: 12
+
+        RobotoButton:
+            text: "[color=#000000]Çiftliğimizden Görüntüler[/color]"
+            on_press: root.manager.current = "resimler"
+
+<Resimler>:
+    Carousel:
+        Image:
+            source: "04.jpg"
+        Image:
+            source: "03.jpeg"
+        Image:
+            source: "02.png"
+        RobotoButton:
+            text: "[color=#000000]Geri[/color]"
+            on_press: root.manager.current = "hakkimizda"
+
+<EditedLabel@Label>:    
+    font_name: 'Roboto'
+    font_size: 16
+    markup: True
+    color: 0,0,0,0
+    pos_hint: {'center_x': 0.5}
+
+<RobotoButton@Button>:
+    font_name: 'Roboto'
+    font_size: 16
+    background_normal: "button_down.png"
+    bold: True
+    size_hint: (.5, .5)
+    pos_hint: {'center_x': 0.5}
+    markup: True
+
+    # Buton png fotolarimiz 1 piksel. Sirasiyla top, right, bottom ve
+    # left yonlerine 2 piksel verecek sekilde ayarlamamizi yapiyoruz.
+    border: (2,2,2,2)
+
+
+<Ekran>:
+    id: ekran
+
+    Anasayfa:
+        id: anasayfa
+        name: "anasayfa"
+        manager: ekran
+
+    Hakkimizda:
+        id: hakkimizda
+        name: "hakkimizda"
+        manager: ekran
+
+    Resimler:
+        id: resimler
+        name: "resimler"
+        manager: ekran
+
+    

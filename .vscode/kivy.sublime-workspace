@@ -1,0 +1,387 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_object_or_404\timport"
+			],
+			[
+				"Ca",
+				"CategoryAdmin\tclass"
+			],
+			[
+				"Blog",
+				"BlogAdmin\tclass"
+			],
+			[
+				"db",
+				"db_index"
+			],
+			[
+				"mdat",
+				"mdatetime\tdatetimefield"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/eos/Virtual/kivy/YumurtamSicak/main.py",
+			"settings":
+			{
+				"buffer_size": 2042,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eos/Virtual/kivy/share/kivy-examples/demo/showcase/showcase.kv",
+			"settings":
+			{
+				"buffer_size": 3064,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eos/Virtual/kivy/YumurtamSicak/yumurta.kv",
+			"settings":
+			{
+				"buffer_size": 3734,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"virt",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtua",
+				"Virtualenv: Remove"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"virtu",
+				"Virtualenv: Activate"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 110.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/eos/Virtual/kivy/YumurtamSicak",
+		"/home/eos/Virtual/kivy/YumurtamSicak/.vscode"
+	],
+	"file_history":
+	[
+		"/home/eos/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/eos/Virtual/kivy/YumurtamSicak/.vscode/kivy.sublime-project",
+		"/home/eos/.config/sublime-text-3/Packages/User/Virtualenv.sublime-settings",
+		"/home/eos/Virtual/kivy/YumurtamSicak/.vscode/tasks.json",
+		"/home/eos/Virtual/kivy/YumurtamSicak/.vscode/settings.json",
+		"/home/eos/Virtual/kivy/YumurtamSicak/insta.png",
+		"/home/eos/Virtual/kivy/YumurtamSicak/yumurta.kv",
+		"/home/eos/Virtual/kivy/YumurtamSicak/main.py",
+		"/home/eos/Virtual/django-blog/blog/websitesi/tests.py",
+		"/home/eos/Virtual/django-blog/blog/websitesi/apps.py",
+		"/home/eos/Virtual/django-blog/blog/websitesi/admin.py",
+		"/home/eos/Virtual/django-blog/blog/blog/wsgi.py",
+		"/home/eos/Virtual/django-blog/blog/blog/urls.py",
+		"/home/eos/Virtual/django-blog/blog/blog/settings.py",
+		"/home/eos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/eos/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/eos/Virtual/kivy/YumurtamSicak/main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2041,
+								2041
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/eos/Virtual/kivy/share/kivy-examples/demo/showcase/showcase.kv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kivy Language/kv.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/home/eos/Virtual/kivy/YumurtamSicak/yumurta.kv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kivy Language/kv.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 23.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.458272327965,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "kivy.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Virtual/kivy/YumurtamSicak/.vscode/kivy.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 142.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
